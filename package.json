@@ -1,0 +1,26 @@
+{
+  "name": "poptox",
+  "version": "2.0.0",
+  "description": "Token Microservice for deployment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "aarhuuus",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "bgutils-js": "^3.2.0",
+    "youtubei.js": "^12.0.0",
+    "jsdom": "^24.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
